@@ -1,5 +1,5 @@
 body {
-  background-image: url('/public/img/seamless3.jpg');
+  background-image: url('../img/seamless3.jpg');
   color: #000305;
   font-size: 87%;
   /*base font-size = 14px*/
@@ -19,7 +19,7 @@ body {
 .jumbotron {
   margin-top: 2px;
   margin-bottom: 0 auto;
-  background-image: url(/public/img/github2.jpg);
+  background-image: url("../img/github1.jpg");
   background-size: cover fixed;
   background-position: center;
   color: #fff;
