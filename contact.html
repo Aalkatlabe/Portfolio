@@ -48,7 +48,6 @@
               Projects</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="Bloembinderij/index.html">Bloembinderij</a>
-              <a class="dropdown-item" href="Sportschool/index.html">Sportschool</a>
               <a class="dropdown-item" href="Snackbar Lekker/index.html">Snackbar Lekker</a>
               <a class="dropdown-item" href="interactiondesign/login.html">Interaction Design</a>
               <a class="dropdown-item" href="Caculator/index.html">Calculator JS</a>
@@ -57,6 +56,8 @@
               <a class="dropdown-item" href="https://github.com/Aalkatlabe/Triviant">Triviant C#</a>
               <a class="dropdown-item" href="https://github.com/Aalkatlabe/ijsshopSundays">ijsshopSundays C#</a>
               <a class="dropdown-item" href="https://github.com/Aalkatlabe/RestZuZu.git">RestZuZu PHP/MYSQL</a>
+              <a class="dropdown-item" href="https://github.com/Aalkatlabe/Health-one.git">Health-one PHP/MYSQL</a>
+              <a class="dropdown-item" href="https://github.com/Aalkatlabe/Pizza-Symfony5.git">Pizza-Symfony5</a>
 
 
             </div>
@@ -75,76 +76,80 @@
   </nav>
   <section class="mb-4">
 
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
-      directly. Our team will come back to you within
-      a matter of hours to help you.</p>
 
+  
+<h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+    a matter of hours to help you.</p>
 
+<div class="row contact">
 
-    <div class="row contact">
+    <div class="col-md-9 mb-md-0 mb-5">
 
-      <div class="col-md-9 mb-md-0 mb-5">
-
-        <div class="info-container">
-          <div class="location">
-            <div class="info-icon">
-              <img class="info-icon-img" src="public/img/location.png" width="60px">
+        <form id="contactForm">
+          <input type="hidden" name="contact_number">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input type="text" name="u-name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Name">
+                    </div>
+                </div>
             </div>
-            <div class="info-txt">
-              <h1>Locatie</h1>
-              <p>Tinwerf 10, 2544 ED Den Haag</p>
-            </div>
-
-          </div>
-          <div class="phone">
-            <div class="info-icon">
-              <img class="info-icon-img" src="public/img/telephone.png" width="60px">
-            </div>
-            <div class="info-txt">
-              <h1>Phone</h1>
-              <p>0111111111</p>
-            </div>
-
-          </div>
-          <div class="email">
-            <div class="info-icon">
-              <img class="info-icon-img" src="public/img/email.png" width="60px">
-            </div>
-            <div class="info-txt">
-              <h1>Email</h1>
-              <p>Alaa-Alkatlabe@gmail.com</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input type="email" name="u-email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Email">
+              
+                    </div>
+                </div>
             </div>
 
-          </div>
-        </div>
 
-      </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                      <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Subject">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                      <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                      placeholder="Message"></textarea>
+                    </div>
+                </div>
+            </div>
 
+            <div class="text-center text-md-left">
+              <button class="btn btn-primary" type="submit"> <i class="bi bi-send-fill"></i> Send </button>
+            </div>
+
+        </form>
 
     </div>
+    <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i><br>
+                    <br> <p>Tinwerf 16, 2544ED Den Haag, NL</p>
+                    </li>
 
-    <div class="socialm-container">
-     
-      <div class="soc_nav">
-          <ul>
-              <li><a class="nav-link" href="./index.html">HOME</a></li>
-              <li><a class="nav-link" href="about.html">ABOUT</a></li>
-              <li><a class="nav-link" href="contact.html">CONTACT</a></li>
-          </ul>
-      </div>
-      <div class="soc_icon">
-          <img src="public/img/facebook.png " width="18px">
-          <img src="public/img/instagram.png " width="30px">
-          <img src="public/img/twitter.png " width="30px">
-          <img src="public/img/whatsapp.png " width="30px">
-      </div>
-  </div>
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i><br>
+                    <br><p>contact@Alkatlabe.com</p>
+                    </li>
+                </ul>
+            </div>
+
+</div>
 
   </section>
 
+
   <footer id="footer">
-    <p>Copyright © 2021</p>
+    <p>Copyright © 2022 Designed by A.Alkatlabe</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -155,6 +160,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="public/js/contact.js"></script>
 </body>
 

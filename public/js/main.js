@@ -67,7 +67,7 @@ const toggleTheme = function () {
     }
     localStorage.setItem("darkModeTheme", darkMode);
     const elements = document.querySelectorAll(
-        "section, .theSidebar, .card, .list-group-item")
+        "section, .theSidebar, .card, .list-group-item, html, .navbar, .label, #footer")
     for (let i = 0; i < elements.length; i++) {
         const element = elements[i];
         element.classList.toggle("dark-mode");
@@ -85,7 +85,7 @@ console.log(localStorage.getItem("darkModeTheme"))
 
 if (darkMode) {
     const elements = document.querySelectorAll(
-        "section, .theSidebar, .card, .list-group-item")
+        "section, .theSidebar, .card, .list-group-item, html, .navbar, .label, #footer")
     for (let i = 0; i < elements.length; i++) {
         const element = elements[i];
         element.classList.toggle("dark-mode");

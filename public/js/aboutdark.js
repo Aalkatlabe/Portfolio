@@ -16,7 +16,7 @@ const toggleTheme = function () {
     } 
     localStorage.setItem("darkModeTheme", darkMode);
     const elements = document.querySelectorAll(
-        ".card, .card-title, .card-text" )
+        ".card, .card-title, .card-text, html, section, .navbar, #footer, .label" )
     for(let i = 0; i < elements.length; i++ ) {
     const element = elements[i];
     element.classList.toggle("dark-mode");
@@ -34,7 +34,7 @@ console.log(localStorage.getItem("darkModeTheme"))
 
 if(darkMode){
     const elements = document.querySelectorAll(
-        ".card, .card-title, .card-text" )
+        ".card, .card-title, .card-text, html, section, .navbar, #footer, .label" )
     for(let i = 0; i < elements.length; i++ ) {
     const element = elements[i];
     element.classList.toggle("dark-mode");
