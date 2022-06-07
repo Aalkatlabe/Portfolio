@@ -239,7 +239,7 @@ img {
 
 /*--------------------------------Css mobile-----------------------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
   .body {
     width: 90%;
     font-size: 95%;
@@ -343,7 +343,7 @@ img {
   }
   #puzzle {
     margin: auto;
-    width: 400px;
+    width: 350px;
     height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
